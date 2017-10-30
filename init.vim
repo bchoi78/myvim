@@ -12,6 +12,8 @@ Plug 'leafgarland/typescript-vim'
 
 " Completion Engine
 Plug 'Valloric/YouCompleteMe'
+" For surrounding characters
+Plug 'tpope/vim-surround'
 
 " Linter
 Plug 'w0rp/ale'
@@ -21,6 +23,9 @@ Plug 'rking/ag.vim'
 
 " Keymaps
 Plug 'drmingdrmer/vim-toggle-quickfix'
+
+" Git integration
+Plug 'tpope/vim-fugitive'
 
 call plug#end()
 

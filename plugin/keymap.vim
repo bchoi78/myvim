@@ -2,6 +2,7 @@
 
 " NerdTree
 nnoremap <C-n> :NERDTreeToggle<CR>
+nnoremap D :GotoDir 
 
 " YouCompleteMe 
 " GoTo
@@ -38,5 +39,3 @@ nnoremap <S-j> <C-w>j
 nnoremap <S-k> <C-w>k
 nnoremap <S-h> <C-w>h
 nnoremap <S-l> <C-w>l
-
-command Vimrc NERDTree ~/.config/nvim

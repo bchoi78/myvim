@@ -12,8 +12,6 @@ Plug 'leafgarland/typescript-vim'
 
 " Completion Engine
 Plug 'Valloric/YouCompleteMe'
-" For surrounding characters
-Plug 'tpope/vim-surround'
 
 " Linter
 Plug 'w0rp/ale'
@@ -27,8 +25,16 @@ Plug 'drmingdrmer/vim-toggle-quickfix'
 " Git integration
 Plug 'tpope/vim-fugitive'
 
+" Display
+Plug 'vim-airline/vim-airline'
+
 call plug#end()
 
 
 " Set filetype plugins on
 filetype plugin on
+
+" Use these for things that are specific to each local machine. Used for
+" various commands, where applicable
+let g:local_machine_vars='~/.config/local_nvim_vars.vim'
+exe "silent! source " . g:local_machine_vars

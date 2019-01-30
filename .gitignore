@@ -1,2 +1,3 @@
 # Ignore installed plugins -- install later
 plug/*
+sessions/*

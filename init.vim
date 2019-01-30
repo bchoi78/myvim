@@ -9,15 +9,22 @@ Plug 'isRuslan/vim-es6'
 Plug 'kchmck/vim-coffee-script'
 Plug 'digitaltoad/vim-pug'
 Plug 'leafgarland/typescript-vim'
+Plug 'tmux-plugins/vim-tmux'
+Plug 'elixir-editors/vim-elixir'
 
 " Completion Engine
-Plug 'Valloric/YouCompleteMe'
+Plug 'Valloric/YouCompleteMe', {'do': './install.py'}
+Plug 'majutsushi/tagbar'
 
 " Linter
 Plug 'w0rp/ale'
 
 " Filesearch
 Plug 'rking/ag.vim'
+Plug 'ctrlpvim/ctrlp.vim'
+
+" Motions
+Plug 'chaoren/vim-wordmotion'
 
 " Keymaps
 Plug 'drmingdrmer/vim-toggle-quickfix'
@@ -27,6 +34,11 @@ Plug 'tpope/vim-fugitive'
 
 " Display
 Plug 'vim-airline/vim-airline'
+Plug 'tmux-plugins/vim-tmux-focus-events'
+
+" Session management
+Plug 'xolox/vim-misc'
+Plug 'xolox/vim-session'
 
 call plug#end()
 

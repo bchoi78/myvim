@@ -2,7 +2,8 @@
 
 " NerdTree
 nnoremap <C-n> :NERDTreeToggle<CR>
-nnoremap D :GotoDir 
+nnoremap ˜ :NERDTree<CR>
+nnoremap S :OpenSession 
 
 " YouCompleteMe 
 " GoTo
@@ -11,6 +12,7 @@ inoremap <C-g> <Esc>:YcmCompleter GoTo<cr>
 " GetDoc
 nnoremap <C-d> :YcmCompleter GetDoc<cr>
 inoremap <C-g> <C-o>:YcmCompleter GetDoc<cr>
+nnoremap cd :pc<cr>
 
 " ALE
 " Next Error - ALT+J
@@ -19,10 +21,12 @@ nmap ∆ <Plug>(ale_next_wrap)
 nmap ˚ <Plug>(ale_previous_wrap)
 
 " File Search
-nnoremap G :Ag 
-nnoremap F :AgFile 
+nnoremap G :AgWithQuotes 
+nnoremap F :AgFileWithQuotes 
 nmap ff <Plug>window:quickfix:toggle
 
+" Terminal mode
+:tnoremap <Esc> <C-\><C-n>
 
 """"""""""""""""""""""""""""""""""""""""""""""""
 

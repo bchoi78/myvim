@@ -37,4 +37,9 @@ function CleanTrailingWhitespace()
     %s/\s\+$//e
 endfunction
 
+function SetPythonPathToCWD()
+    let $PYTHONPATH .= ':' . getcwd()
+endfunction
+
 autocmd BufWritePre *.py call CleanTrailingWhitespace()
+autocmd SessionLoadPost * call SetPythonPathToCWD()

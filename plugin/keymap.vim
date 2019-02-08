@@ -33,7 +33,7 @@ nmap ff <Plug>window:quickfix:toggle
 " Editing
 
 " Tab controls
-inoremap . <esc>==i
+inoremap <c-t> <esc>==i
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""

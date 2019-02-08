@@ -12,6 +12,7 @@ set softtabstop=4
 set expandtab
 set smarttab
 set shiftround
+filetype indent plugin on  " Enable plugin indent handling as well
 
 " Set wildignore to ignore undsired files
 set wildignore+=*/*.pyc

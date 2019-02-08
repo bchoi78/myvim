@@ -11,6 +11,7 @@ Plug 'digitaltoad/vim-pug'
 Plug 'leafgarland/typescript-vim'
 Plug 'tmux-plugins/vim-tmux'
 Plug 'elixir-editors/vim-elixir'
+Plug 'Vimjas/vim-python-pep8-indent'
 
 " Completion Engine
 Plug 'Valloric/YouCompleteMe', {'do': './install.py'}

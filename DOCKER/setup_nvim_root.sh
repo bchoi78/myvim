@@ -2,7 +2,7 @@
 
 # RUN THIS IN ROOT
 # Install the apt repos for nvim
-apt-get install --assume-yes silversearcher-ag
+sudo apt-get install --assume-yes silversearcher-ag
 sudo apt-get --assume-yes install software-properties-common
 sudo apt-get --assume-yes install cmake
 sudo add-apt-repository ppa:neovim-ppa/stable -y

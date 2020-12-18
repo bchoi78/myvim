@@ -1,3 +1,6 @@
 # Ignore installed plugins -- install later
 plug/*
 sessions/*
+vim-plug/*
+# Autoload special plugins
+autoload/riv*

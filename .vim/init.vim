@@ -1,5 +1,5 @@
 " Plugins (vim-plug)
-call plug#begin('~/.config/nvim/plug')
+call plug#begin('~/.vim/vim-plug')
 
 " Directory Tree navigation
 Plug 'scrooloose/nerdtree'

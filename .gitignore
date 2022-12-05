@@ -4,3 +4,5 @@ sessions/*
 vim-plug/*
 # Autoload special plugins
 autoload/riv*
+.*.swp
+.*.swo

@@ -3,12 +3,16 @@
 " NerdTree
 nnoremap <C-n> :NERDTreeToggle<CR>
 nnoremap ˜ :NERDTree<CR>
+
+" vim-session
 nnoremap S :OpenSession 
 
 " YouCompleteMe 
 " GoTo
 nnoremap <C-g> :YcmCompleter GoTo<cr>
 inoremap <C-g> <Esc>:YcmCompleter GoTo<cr>
+nnoremap <C-f> :YcmCompleter GoToReferences<cr>
+inoremap <C-f> <Esc>:YcmCompleter GoToReferences<cr>
 " GetDoc
 nnoremap <C-d> :YcmCompleter GetDoc<cr>
 inoremap <C-g> <C-o>:YcmCompleter GetDoc<cr>
@@ -27,6 +31,12 @@ nmap ff <Plug>window:quickfix:toggle
 
 " Terminal mode
 :tnoremap <Esc> <C-\><C-n>
+
+" Copy/Paste
+xnoremap <C-c> "+y
+nnoremap <C-v> "+p
+inoremap <C-v> <Esc>"+pa
+
 
 """"""""""""""""""""""""""""""""""""""""""""""""
 

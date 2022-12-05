@@ -13,4 +13,8 @@ let g:ycm_extra_conf_vim_data = [
 let g:ycm_global_ycm_extra_conf = '~/.config/nvim/plugin/global_extra_conf.py'
 
 " let g:ycm_autoclose_preview_window_after_completion = 1  
+" Add homebrew vim stuff
+let g:ycm_clangd_binary_path = trim(system('brew --prefix llvm')).'/bin/clangd'
 
+" Mkae gopls use existing servers where possible
+let g:ycm_gopls_args = ['-remote=auto']
